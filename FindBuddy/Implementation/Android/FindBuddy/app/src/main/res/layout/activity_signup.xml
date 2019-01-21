@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark">
+
+    <ImageView
+        android:id="@+id/IconLogin"
+        android:layout_width="167dp"
+        android:layout_height="142dp"
+        android:layout_marginBottom="32dp"
+        android:layout_marginEnd="108dp"
+        android:layout_marginStart="109dp"
+        android:layout_marginTop="53dp"
+        android:contentDescription="icon_login"
+        app:layout_constraintBottom_toTopOf="@+id/signUpUserName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/iconinverted" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="227dp"
+        android:layout_height="37dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="9dp"
+        android:background="@drawable/rounded_edit_text"
+
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/password"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/signIn"
+        android:layout_width="211dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="86dp"
+        android:layout_marginStart="87dp"
+        android:background="@drawable/login_button"
+        android:fontFamily="sans-serif"
+        android:shape="rectangle"
+        android:text="Sign Up"
+        app:layout_constraintBottom_toTopOf="@+id/SignUpBackLogin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="227dp"
+        android:layout_height="37dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="69dp"
+        android:background="@drawable/rounded_edit_text"
+
+        android:ems="10"
+        android:hint="Passwort"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/signIn"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/SignUpBackLogin"
+        android:layout_width="247dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginStart="69dp"
+
+        android:background="?android:attr/selectableItemBackground"
+        android:fontFamily="sans-serif"
+        android:text="Bereits einen Account?"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/signUpUserName"
+        android:layout_width="227dp"
+        android:layout_height="37dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+
+
+        android:layout_marginBottom="9dp"
+        android:background="@drawable/rounded_edit_text"
+        android:ems="10"
+        android:hint="Name"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/birthdaybutton"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/birthdaybutton"
+        android:layout_width="227dp"
+        android:layout_height="37dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="9dp"
+        android:background="@drawable/rounded_edit_text"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+
+        android:text="Geburtstdatum"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/email"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

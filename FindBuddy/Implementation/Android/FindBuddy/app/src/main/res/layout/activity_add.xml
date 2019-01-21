@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="at.fhooe.mc.android.findbuddy.AddActivity"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/add_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="?android:attr/actionBarSize"
+        android:orientation="vertical"
+        android:paddingTop="8dp"
+        android:scrollbarStyle="outsideInset">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/addEditTextName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Name"
+                android:inputType="text" />
+
+
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:columnCount="2"
+                android:rowCount="6">
+
+                <TextView
+                    android:id="@+id/categoryName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_column="0"
+                    android:layout_row="0"
+                    android:text="Kategorie"
+                    android:textColor="@android:color/darker_gray" />
+
+                <at.fhooe.mc.android.findbuddy.CustomSpinner
+                    android:id="@+id/category_spinner"
+                    android:layout_margin="10dp"
+                    android:layout_width="200dp"
+                    android:dropDownWidth="200dp"
+                    android:layout_height="?attr/dropdownListPreferredItemHeight"
+                    android:dropDownVerticalOffset="?attr/dropdownListPreferredItemHeight"
+                    android:background="@drawable/spinner_bg"
+                    android:popupBackground="@android:color/white"
+                    android:paddingEnd="14dp"
+                    android:stateListAnimator="@drawable/spinner_sla"
+                    android:popupElevation="3dp"
+                    android:layout_column="0"
+                    android:layout_row="1"/>
+
+                <TextView
+                    android:id="@+id/von"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_column="0"
+                    android:layout_row="2"
+                    android:text="Von"
+                    android:textColor="@android:color/darker_gray" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_column="0"
+                    android:layout_row="3">
+                    <Button
+                        android:id="@+id/addButtonStartDate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart = "10dp"
+                        android:layout_column="0"
+                        android:layout_row="3"
+                        android:text="Datum" />
+
+                    <Button
+                        android:id="@+id/addButtonStartTime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart = "10dp"
+                        android:layout_column="0"
+                        android:layout_row="3"
+                        android:text="Zeit" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/bis"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_column="0"
+                    android:layout_row="4"
+                    android:text="Bis"
+                    android:textColor="@android:color/darker_gray" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_column="0"
+                    android:layout_row="5">
+                    <Button
+                        android:id="@+id/addButtonEndDate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart = "10dp"
+                        android:text="Datum" />
+
+                    <Button
+                        android:id="@+id/addButtonEndTime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart = "10dp"
+                        android:text="Zeit" />
+                </LinearLayout>
+
+            </GridLayout>
+
+            <EditText
+                android:id="@+id/addEditTextMaxParticipants"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:hint="Max. Teilnehmer"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/addEditTextInformation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:hint="Zusätzliche Information"
+                android:inputType="textMultiLine" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

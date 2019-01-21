@@ -1,0 +1,4 @@
+FindBuddy Colors
+
+Light	#14919b
+Dark	#0e6e76

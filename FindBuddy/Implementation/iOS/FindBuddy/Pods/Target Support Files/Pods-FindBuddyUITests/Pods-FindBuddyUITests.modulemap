@@ -1,0 +1,6 @@
+framework module Pods_FindBuddyUITests {
+  umbrella header "Pods-FindBuddyUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

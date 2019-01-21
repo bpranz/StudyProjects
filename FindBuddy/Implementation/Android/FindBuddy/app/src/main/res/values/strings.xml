@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">FindBuddy</string>
+    <string name="title_findbuddy">Find Buddy</string>
+    <string name="title_activities">Aktivitäten</string>
+    <string name="title_profile">Profil</string>
+    <string name="google_android_map_api_key">AIzaSyDjenUgvHeh8SLaa3v_3Xd6QwrDhdGAoT4</string>
+    <string name="search_title">Suche</string>
+    <string name="search_hint">Activity</string>
+    <string name="title_location_permission">Darf FindBuddy deinen Standort verwenden?</string>
+    <string name="text_location_permission">Ihr Standort wird benötigt um die volle Funktion dieser App nutzen zu können.</string>
+    <string name="ok">OK</string>
+    <string name="title_activity_single">SingleActivity</string>
+    <string name="icon_login">Login</string>
+    <string name="RESULT_LOAD_IMG">gallerypic</string>
+    <string name="filter_activities">Nach Kategorie filtern</string>
+    <string name="profilEdit">Profil bearbeiten</string>
+    <string name="dropdown1">Speichern</string>
+    <string name="dropdown2">Ausloggen</string>
+    <string name="filter_dialog_info">Nach Kategorien filtern</string>
+    <string name="education">Bildung</string>s
+    <string name="standard">Andere</string>
+    <string name="relaxation">Entspannung</string>
+    <string name="food">Essen</string>
+    <string name="meetup">Meetup</string>
+    <string name="party">Party</string>
+    <string name="shopping">Shopping</string>
+    <string name="sport">Sport</string>
+    <string name="entertainment">Unterhaltung</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="filter">Filtern</string>
+    <string name="participate">Teilnehmen</string>
+    <string name="leave">Verlassen</string>
+    <string name="delete">Aktivität löschen</string>
+</resources>

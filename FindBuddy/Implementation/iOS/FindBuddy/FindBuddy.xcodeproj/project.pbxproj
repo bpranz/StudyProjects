@@ -1,0 +1,873 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0EB8EBB80641E1A9EC5ADD1E /* Pods_FindBuddyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE022C68D25C0B41A2A997DB /* Pods_FindBuddyTests.framework */; };
+		2818AB6D2023B6EB00F7B0BA /* AddActivityTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2818AB6C2023B6EB00F7B0BA /* AddActivityTableViewController.swift */; };
+		281960E120276B8A00FCFA7A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281960DF20276B8A00FCFA7A /* LoginViewController.swift */; };
+		281960E220276B8A00FCFA7A /* LaunchscreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281960E020276B8A00FCFA7A /* LaunchscreenViewController.swift */; };
+		2824AB7F2027991100894208 /* NewAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2824AB7E2027991100894208 /* NewAccountViewController.swift */; };
+		2824AB802027CB1000894208 /* NewAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2824AB7E2027991100894208 /* NewAccountViewController.swift */; };
+		28339BCA2006CF4300040324 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 28339BC92006CF4300040324 /* GoogleService-Info.plist */; };
+		28339BCC2006D08600040324 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28339BCB2006D08600040324 /* TabBarController.swift */; };
+		28339BCE2006D1B300040324 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28339BCD2006D1B300040324 /* Activity.swift */; };
+		289143E62006C59A0058FE70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289143E52006C59A0058FE70 /* AppDelegate.swift */; };
+		289143E82006C59A0058FE70 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289143E72006C59A0058FE70 /* MapViewController.swift */; };
+		289143ED2006C59A0058FE70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 289143EB2006C59A0058FE70 /* Main.storyboard */; };
+		289143EF2006C59A0058FE70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 289143EE2006C59A0058FE70 /* Assets.xcassets */; };
+		289143F22006C59A0058FE70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 289143F02006C59A0058FE70 /* LaunchScreen.storyboard */; };
+		289143FD2006C59A0058FE70 /* FindBuddyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289143FC2006C59A0058FE70 /* FindBuddyTests.swift */; };
+		289144082006C59A0058FE70 /* FindBuddyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289144072006C59A0058FE70 /* FindBuddyUITests.swift */; };
+		289144182006C74A0058FE70 /* ActivitiesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289144172006C74A0058FE70 /* ActivitiesTableViewController.swift */; };
+		28C14D77201A261E0029AD75 /* ActivityPointAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C14D76201A261E0029AD75 /* ActivityPointAnnotation.swift */; };
+		28C14D79201A3F810029AD75 /* ActivityDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C14D78201A3F810029AD75 /* ActivityDetailViewController.swift */; };
+		28EB9E452024E64E000608EE /* CategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EB9E442024E64E000608EE /* CategoryTableViewController.swift */; };
+		28F71440200800C1000090C6 /* ActivityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F7143F200800C1000090C6 /* ActivityTableViewCell.swift */; };
+		28FAE1C920292A860023DEA5 /* FilterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FAE1C820292A860023DEA5 /* FilterTableViewController.swift */; };
+		462E9BC22027258500C10AFF /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462E9BC12027258500C10AFF /* ProfileViewController.swift */; };
+		DAFC026782819F2FD4965AAA /* Pods_FindBuddyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D21352865321A780BBC71791 /* Pods_FindBuddyUITests.framework */; };
+		ED313DE7C604A19E47E8EC8F /* Pods_FindBuddy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDACD329333F61B31F501DD1 /* Pods_FindBuddy.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		289143F92006C59A0058FE70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 289143DA2006C5990058FE70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 289143E12006C59A0058FE70;
+			remoteInfo = FindBuddy;
+		};
+		289144042006C59A0058FE70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 289143DA2006C5990058FE70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 289143E12006C59A0058FE70;
+			remoteInfo = FindBuddy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		018909EC548743E8D25C1479 /* Pods-FindBuddy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindBuddy.release.xcconfig"; path = "Pods/Target Support Files/Pods-FindBuddy/Pods-FindBuddy.release.xcconfig"; sourceTree = "<group>"; };
+		133E60865A4E0E3413628406 /* Pods-FindBuddyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindBuddyUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FindBuddyUITests/Pods-FindBuddyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2818AB6C2023B6EB00F7B0BA /* AddActivityTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddActivityTableViewController.swift; sourceTree = "<group>"; };
+		281960DF20276B8A00FCFA7A /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		281960E020276B8A00FCFA7A /* LaunchscreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchscreenViewController.swift; sourceTree = "<group>"; };
+		2824AB7E2027991100894208 /* NewAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAccountViewController.swift; sourceTree = "<group>"; };
+		28339BC92006CF4300040324 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		28339BCB2006D08600040324 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		28339BCD2006D1B300040324 /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		289143E22006C59A0058FE70 /* FindBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		289143E52006C59A0058FE70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		289143E72006C59A0058FE70 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		289143EC2006C59A0058FE70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		289143EE2006C59A0058FE70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		289143F12006C59A0058FE70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		289143F32006C59A0058FE70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		289143F82006C59A0058FE70 /* FindBuddyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindBuddyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		289143FC2006C59A0058FE70 /* FindBuddyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindBuddyTests.swift; sourceTree = "<group>"; };
+		289143FE2006C59A0058FE70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		289144032006C59A0058FE70 /* FindBuddyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindBuddyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		289144072006C59A0058FE70 /* FindBuddyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindBuddyUITests.swift; sourceTree = "<group>"; };
+		289144092006C59A0058FE70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		289144172006C74A0058FE70 /* ActivitiesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitiesTableViewController.swift; sourceTree = "<group>"; };
+		28C14D76201A261E0029AD75 /* ActivityPointAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityPointAnnotation.swift; sourceTree = "<group>"; };
+		28C14D78201A3F810029AD75 /* ActivityDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityDetailViewController.swift; sourceTree = "<group>"; };
+		28EB9E442024E64E000608EE /* CategoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewController.swift; sourceTree = "<group>"; };
+		28F7143F200800C1000090C6 /* ActivityTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityTableViewCell.swift; sourceTree = "<group>"; };
+		28FAE1C820292A860023DEA5 /* FilterTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterTableViewController.swift; sourceTree = "<group>"; };
+		30E50C9F1F95947F629C6ABE /* Pods-FindBuddy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindBuddy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FindBuddy/Pods-FindBuddy.debug.xcconfig"; sourceTree = "<group>"; };
+		462E9BC12027258500C10AFF /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		D21352865321A780BBC71791 /* Pods_FindBuddyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindBuddyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D49A545FCDF5D91394BE6BD4 /* Pods-FindBuddyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindBuddyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FindBuddyUITests/Pods-FindBuddyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DD2EE120C5BDC6B3E04067DB /* Pods-FindBuddyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindBuddyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FindBuddyTests/Pods-FindBuddyTests.release.xcconfig"; sourceTree = "<group>"; };
+		DE022C68D25C0B41A2A997DB /* Pods_FindBuddyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindBuddyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDACD329333F61B31F501DD1 /* Pods_FindBuddy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindBuddy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAC461048D61A03023FA964D /* Pods-FindBuddyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindBuddyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FindBuddyTests/Pods-FindBuddyTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		289143DF2006C59A0058FE70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED313DE7C604A19E47E8EC8F /* Pods_FindBuddy.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		289143F52006C59A0058FE70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EB8EBB80641E1A9EC5ADD1E /* Pods_FindBuddyTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		289144002006C59A0058FE70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAFC026782819F2FD4965AAA /* Pods_FindBuddyUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28339BCF2006D1B900040324 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				28339BCD2006D1B300040324 /* Activity.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		289143D92006C5990058FE70 = {
+			isa = PBXGroup;
+			children = (
+				289143E42006C59A0058FE70 /* FindBuddy */,
+				289143FB2006C59A0058FE70 /* FindBuddyTests */,
+				289144062006C59A0058FE70 /* FindBuddyUITests */,
+				289143E32006C59A0058FE70 /* Products */,
+				9F0D38F8DE07E6DF079DDFB1 /* Pods */,
+				FEDA2C2BDA19F2E3ED42E388 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		289143E32006C59A0058FE70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				289143E22006C59A0058FE70 /* FindBuddy.app */,
+				289143F82006C59A0058FE70 /* FindBuddyTests.xctest */,
+				289144032006C59A0058FE70 /* FindBuddyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		289143E42006C59A0058FE70 /* FindBuddy */ = {
+			isa = PBXGroup;
+			children = (
+				289143E52006C59A0058FE70 /* AppDelegate.swift */,
+				28339BCF2006D1B900040324 /* Entities */,
+				289144192006C75D0058FE70 /* ViewController */,
+				289143EB2006C59A0058FE70 /* Main.storyboard */,
+				289143EE2006C59A0058FE70 /* Assets.xcassets */,
+				289143F02006C59A0058FE70 /* LaunchScreen.storyboard */,
+				28339BC92006CF4300040324 /* GoogleService-Info.plist */,
+				289143F32006C59A0058FE70 /* Info.plist */,
+			);
+			path = FindBuddy;
+			sourceTree = "<group>";
+		};
+		289143FB2006C59A0058FE70 /* FindBuddyTests */ = {
+			isa = PBXGroup;
+			children = (
+				289143FC2006C59A0058FE70 /* FindBuddyTests.swift */,
+				289143FE2006C59A0058FE70 /* Info.plist */,
+			);
+			path = FindBuddyTests;
+			sourceTree = "<group>";
+		};
+		289144062006C59A0058FE70 /* FindBuddyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				289144072006C59A0058FE70 /* FindBuddyUITests.swift */,
+				289144092006C59A0058FE70 /* Info.plist */,
+			);
+			path = FindBuddyUITests;
+			sourceTree = "<group>";
+		};
+		289144192006C75D0058FE70 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				28339BCB2006D08600040324 /* TabBarController.swift */,
+				289143E72006C59A0058FE70 /* MapViewController.swift */,
+				289144172006C74A0058FE70 /* ActivitiesTableViewController.swift */,
+				28F7143F200800C1000090C6 /* ActivityTableViewCell.swift */,
+				28C14D76201A261E0029AD75 /* ActivityPointAnnotation.swift */,
+				28C14D78201A3F810029AD75 /* ActivityDetailViewController.swift */,
+				2818AB6C2023B6EB00F7B0BA /* AddActivityTableViewController.swift */,
+				28EB9E442024E64E000608EE /* CategoryTableViewController.swift */,
+				462E9BC12027258500C10AFF /* ProfileViewController.swift */,
+				281960E020276B8A00FCFA7A /* LaunchscreenViewController.swift */,
+				281960DF20276B8A00FCFA7A /* LoginViewController.swift */,
+				2824AB7E2027991100894208 /* NewAccountViewController.swift */,
+				28FAE1C820292A860023DEA5 /* FilterTableViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		9F0D38F8DE07E6DF079DDFB1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				30E50C9F1F95947F629C6ABE /* Pods-FindBuddy.debug.xcconfig */,
+				018909EC548743E8D25C1479 /* Pods-FindBuddy.release.xcconfig */,
+				FAC461048D61A03023FA964D /* Pods-FindBuddyTests.debug.xcconfig */,
+				DD2EE120C5BDC6B3E04067DB /* Pods-FindBuddyTests.release.xcconfig */,
+				D49A545FCDF5D91394BE6BD4 /* Pods-FindBuddyUITests.debug.xcconfig */,
+				133E60865A4E0E3413628406 /* Pods-FindBuddyUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FEDA2C2BDA19F2E3ED42E388 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EDACD329333F61B31F501DD1 /* Pods_FindBuddy.framework */,
+				DE022C68D25C0B41A2A997DB /* Pods_FindBuddyTests.framework */,
+				D21352865321A780BBC71791 /* Pods_FindBuddyUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		289143E12006C59A0058FE70 /* FindBuddy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2891440C2006C59A0058FE70 /* Build configuration list for PBXNativeTarget "FindBuddy" */;
+			buildPhases = (
+				6B38C150F9728417768EEEC3 /* [CP] Check Pods Manifest.lock */,
+				289143DE2006C59A0058FE70 /* Sources */,
+				289143DF2006C59A0058FE70 /* Frameworks */,
+				289143E02006C59A0058FE70 /* Resources */,
+				5A5F48D7743679FBF5F05656 /* [CP] Embed Pods Frameworks */,
+				87D0E1995FDC52E1E38E688F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FindBuddy;
+			productName = FindBuddy;
+			productReference = 289143E22006C59A0058FE70 /* FindBuddy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		289143F72006C59A0058FE70 /* FindBuddyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2891440F2006C59A0058FE70 /* Build configuration list for PBXNativeTarget "FindBuddyTests" */;
+			buildPhases = (
+				AB7E8A3AE19120E8A2C15F3B /* [CP] Check Pods Manifest.lock */,
+				289143F42006C59A0058FE70 /* Sources */,
+				289143F52006C59A0058FE70 /* Frameworks */,
+				289143F62006C59A0058FE70 /* Resources */,
+				495D39599F8A86434AE712ED /* [CP] Embed Pods Frameworks */,
+				FC4C4BBF30B0F6E1DC23D87F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				289143FA2006C59A0058FE70 /* PBXTargetDependency */,
+			);
+			name = FindBuddyTests;
+			productName = FindBuddyTests;
+			productReference = 289143F82006C59A0058FE70 /* FindBuddyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		289144022006C59A0058FE70 /* FindBuddyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 289144122006C59A0058FE70 /* Build configuration list for PBXNativeTarget "FindBuddyUITests" */;
+			buildPhases = (
+				3DDE5E83FE319CEAA3FBFBBE /* [CP] Check Pods Manifest.lock */,
+				289143FF2006C59A0058FE70 /* Sources */,
+				289144002006C59A0058FE70 /* Frameworks */,
+				289144012006C59A0058FE70 /* Resources */,
+				51C7646E5D23750437644807 /* [CP] Embed Pods Frameworks */,
+				4E4640C64D2AD45B16883FD6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				289144052006C59A0058FE70 /* PBXTargetDependency */,
+			);
+			name = FindBuddyUITests;
+			productName = FindBuddyUITests;
+			productReference = 289144032006C59A0058FE70 /* FindBuddyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		289143DA2006C5990058FE70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = FindBuddy;
+				TargetAttributes = {
+					289143E12006C59A0058FE70 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
+					};
+					289143F72006C59A0058FE70 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 289143E12006C59A0058FE70;
+					};
+					289144022006C59A0058FE70 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 289143E12006C59A0058FE70;
+					};
+				};
+			};
+			buildConfigurationList = 289143DD2006C5990058FE70 /* Build configuration list for PBXProject "FindBuddy" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 289143D92006C5990058FE70;
+			productRefGroup = 289143E32006C59A0058FE70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				289143E12006C59A0058FE70 /* FindBuddy */,
+				289143F72006C59A0058FE70 /* FindBuddyTests */,
+				289144022006C59A0058FE70 /* FindBuddyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		289143E02006C59A0058FE70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				289143F22006C59A0058FE70 /* LaunchScreen.storyboard in Resources */,
+				28339BCA2006CF4300040324 /* GoogleService-Info.plist in Resources */,
+				289143EF2006C59A0058FE70 /* Assets.xcassets in Resources */,
+				289143ED2006C59A0058FE70 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		289143F62006C59A0058FE70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		289144012006C59A0058FE70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3DDE5E83FE319CEAA3FBFBBE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FindBuddyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		495D39599F8A86434AE712ED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FindBuddyTests/Pods-FindBuddyTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FindBuddyTests/Pods-FindBuddyTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E4640C64D2AD45B16883FD6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FindBuddyUITests/Pods-FindBuddyUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51C7646E5D23750437644807 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FindBuddyUITests/Pods-FindBuddyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A5F48D7743679FBF5F05656 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FindBuddy/Pods-FindBuddy-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FindBuddy/Pods-FindBuddy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B38C150F9728417768EEEC3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FindBuddy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87D0E1995FDC52E1E38E688F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FindBuddy/Pods-FindBuddy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB7E8A3AE19120E8A2C15F3B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FindBuddyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC4C4BBF30B0F6E1DC23D87F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FindBuddyTests/Pods-FindBuddyTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		289143DE2006C59A0058FE70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				281960E120276B8A00FCFA7A /* LoginViewController.swift in Sources */,
+				28C14D77201A261E0029AD75 /* ActivityPointAnnotation.swift in Sources */,
+				2818AB6D2023B6EB00F7B0BA /* AddActivityTableViewController.swift in Sources */,
+				28339BCE2006D1B300040324 /* Activity.swift in Sources */,
+				289144182006C74A0058FE70 /* ActivitiesTableViewController.swift in Sources */,
+				28F71440200800C1000090C6 /* ActivityTableViewCell.swift in Sources */,
+				281960E220276B8A00FCFA7A /* LaunchscreenViewController.swift in Sources */,
+				28C14D79201A3F810029AD75 /* ActivityDetailViewController.swift in Sources */,
+				462E9BC22027258500C10AFF /* ProfileViewController.swift in Sources */,
+				28339BCC2006D08600040324 /* TabBarController.swift in Sources */,
+				28EB9E452024E64E000608EE /* CategoryTableViewController.swift in Sources */,
+				2824AB7F2027991100894208 /* NewAccountViewController.swift in Sources */,
+				289143E62006C59A0058FE70 /* AppDelegate.swift in Sources */,
+				28FAE1C920292A860023DEA5 /* FilterTableViewController.swift in Sources */,
+				289143E82006C59A0058FE70 /* MapViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		289143F42006C59A0058FE70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				289143FD2006C59A0058FE70 /* FindBuddyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		289143FF2006C59A0058FE70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				289144082006C59A0058FE70 /* FindBuddyUITests.swift in Sources */,
+				2824AB802027CB1000894208 /* NewAccountViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		289143FA2006C59A0058FE70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 289143E12006C59A0058FE70 /* FindBuddy */;
+			targetProxy = 289143F92006C59A0058FE70 /* PBXContainerItemProxy */;
+		};
+		289144052006C59A0058FE70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 289143E12006C59A0058FE70 /* FindBuddy */;
+			targetProxy = 289144042006C59A0058FE70 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		289143EB2006C59A0058FE70 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				289143EC2006C59A0058FE70 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		289143F02006C59A0058FE70 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				289143F12006C59A0058FE70 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2891440A2006C59A0058FE70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2891440B2006C59A0058FE70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2891440D2006C59A0058FE70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30E50C9F1F95947F629C6ABE /* Pods-FindBuddy.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9SHH7W92CR;
+				INFOPLIST_FILE = FindBuddy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = at.fhhgb.FindBuddy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2891440E2006C59A0058FE70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 018909EC548743E8D25C1479 /* Pods-FindBuddy.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9SHH7W92CR;
+				INFOPLIST_FILE = FindBuddy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = at.fhhgb.FindBuddy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		289144102006C59A0058FE70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAC461048D61A03023FA964D /* Pods-FindBuddyTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9SHH7W92CR;
+				INFOPLIST_FILE = FindBuddyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = at.fhhgb.FindBuddyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FindBuddy.app/FindBuddy";
+			};
+			name = Debug;
+		};
+		289144112006C59A0058FE70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD2EE120C5BDC6B3E04067DB /* Pods-FindBuddyTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9SHH7W92CR;
+				INFOPLIST_FILE = FindBuddyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = at.fhhgb.FindBuddyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FindBuddy.app/FindBuddy";
+			};
+			name = Release;
+		};
+		289144132006C59A0058FE70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D49A545FCDF5D91394BE6BD4 /* Pods-FindBuddyUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9SHH7W92CR;
+				INFOPLIST_FILE = FindBuddyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = at.fhhgb.FindBuddyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FindBuddy;
+			};
+			name = Debug;
+		};
+		289144142006C59A0058FE70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 133E60865A4E0E3413628406 /* Pods-FindBuddyUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9SHH7W92CR;
+				INFOPLIST_FILE = FindBuddyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = at.fhhgb.FindBuddyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FindBuddy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		289143DD2006C5990058FE70 /* Build configuration list for PBXProject "FindBuddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2891440A2006C59A0058FE70 /* Debug */,
+				2891440B2006C59A0058FE70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2891440C2006C59A0058FE70 /* Build configuration list for PBXNativeTarget "FindBuddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2891440D2006C59A0058FE70 /* Debug */,
+				2891440E2006C59A0058FE70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2891440F2006C59A0058FE70 /* Build configuration list for PBXNativeTarget "FindBuddyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				289144102006C59A0058FE70 /* Debug */,
+				289144112006C59A0058FE70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		289144122006C59A0058FE70 /* Build configuration list for PBXNativeTarget "FindBuddyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				289144132006C59A0058FE70 /* Debug */,
+				289144142006C59A0058FE70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 289143DA2006C5990058FE70 /* Project object */;
+}

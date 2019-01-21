@@ -1,0 +1,101 @@
+{
+  "project_info": {
+    "project_number": "512466344858",
+    "firebase_url": "https://find-buddy-eba10.firebaseio.com",
+    "project_id": "find-buddy-eba10",
+    "storage_bucket": "find-buddy-eba10.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:512466344858:android:cd18856a88ff6a53",
+        "android_client_info": {
+          "package_name": "at.fhhgb.findbuddy.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "512466344858-kprfufb8bqj8f7lo8d6ucsk6j09eli1f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjenUgvHeh8SLaa3v_3Xd6QwrDhdGAoT4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:512466344858:android:fea9e983b5942922",
+        "android_client_info": {
+          "package_name": "at.fhooe.mc.android.findbuddy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "512466344858-44urpqpu2ie971cjohnei61ia0i0ogv7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "at.fhooe.mc.android.findbuddy",
+            "certificate_hash": "6951218482f2a1bb6c736166ba87b5c3d044bb73"
+          }
+        },
+        {
+          "client_id": "512466344858-qt697vqg47qsc542jchvfrf3hrh5kojl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "at.fhooe.mc.android.findbuddy",
+            "certificate_hash": "2fd14a0092d2f62c49b53028ffe66c3248e7e1cb"
+          }
+        },
+        {
+          "client_id": "512466344858-kprfufb8bqj8f7lo8d6ucsk6j09eli1f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjenUgvHeh8SLaa3v_3Xd6QwrDhdGAoT4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "512466344858-6u61inbr5tcr69msbub5mqldk22dfgdb.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "at.fhhgb.FindBuddy"
+              }
+            },
+            {
+              "client_id": "512466344858-kprfufb8bqj8f7lo8d6ucsk6j09eli1f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

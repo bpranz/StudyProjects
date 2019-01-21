@@ -1,0 +1,6 @@
+framework module Pods_FindBuddy {
+  umbrella header "Pods-FindBuddy-umbrella.h"
+
+  export *
+  module * { export * }
+}
